@@ -1,0 +1,154 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg2.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.logo img{
+    float: "left";
+    width: 150px;
+    height: auto;
+    padding: 10px 10px;
+    
+}
+  ul{
+    list-style-type: none;
+    float: Right;
+    margin-top: -50px;
+}
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+    
+    
+}
+
+ul li a:hover{
+    background-color: #ffffff ;
+    color: black;
+  
+}
+ul li.active a{
+    background-color: #ffffff ;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+   transition: 0.6s ease; 
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: black;    
+
+}
+.slogo ul img{
+    float: "right";
+    width: 20px;
+    height: auto;
+    padding: 5px 5px;
+} 
+.avatar1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 575px;
+    left: 1275px;
+    background-color: transparent;
+    
+}
+.avatar2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 575px;
+    left: 1300px;
+    background-color: transparent;
+}
+.avatar3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top: 575px;
+    left: 1325px;
+    background-color: transparent;
+}
+.copyright {
+margin-top: 478px;
+}
+
+.out_msgbox{
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    
+   
+}
+.msgbox{
+    box-sizing: border-box;
+    width: 300px;
+    color: #3B2C1A;
+    height: 400px;
+    background-color: #E0D7C6; 
+    border-radius: 5px;
+    display: inline-block;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 195px;
+    margin-bottom: 50px;
+}
+input[type=submit] {
+    background-color: #F19E3A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    margin-left: 25%;
+}
+input[type=text], input[type=email], input[type=number], select, textarea {
+    /* width: 100%; */
+    margin: 10px auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+  
+  }
+
+  /* //LISTING */
+  
